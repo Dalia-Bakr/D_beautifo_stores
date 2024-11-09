@@ -1,0 +1,79 @@
+/* login page css */
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+nav {
+	background-color: #694F8E;
+	color: white;
+	display: flex;
+	justify-content: space-around;
+}
+ul {
+	list-style: none;
+}
+li {
+	display: inline-block;
+	position: relative;
+}
+li a {
+	text-decoration: none;
+	color: white;
+	text-transform: capitalize;
+	display: block;
+	padding: 20px;
+}
+.drop li {
+	display: block;
+}
+.drop {
+	width: 100%;
+	background-color: #694F8E;
+	position: absolute;
+	display: none;
+}
+li:hover .drop {
+	display: block;
+}
+.drop li:not(:last-child) {
+	border-bottom: 1px solid #CCC;
+}
+body{
+	text-align: center;		
+}
+h4{
+	padding-top: 20px;
+	margin-top: 100px;
+	color: #5A639C;
+}
+i {
+	margin-right: 10px;
+}
+section{
+	background-image: url(../photo/background/jjjjj.avif);
+	background-repeat: no-repeat;
+	height: 600px;
+	background-position: center;
+}
+p{
+	margin-top: 10px;
+	color: #7776B3;	
+}
+form{
+	margin-top: 10px;
+}
+input{
+	margin-top: 10px;
+	width: 200px;
+}
+button{
+	margin-top: 10px;
+	width: 200px;
+	background-color: #E2BBE9;
+	border-color: #E2BBE9; 
+	color: #5A639C ;
+}
+a{
+	text-decoration: none;
+}

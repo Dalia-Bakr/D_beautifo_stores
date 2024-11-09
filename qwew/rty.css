@@ -1,0 +1,148 @@
+/* home page css */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+nav {
+	background-color: #694F8E;
+	color: white;
+	display: flex;
+	justify-content: space-around;
+}
+ul {
+	list-style: none;
+}
+li {
+	display: inline-block;
+	position: relative;
+}
+li a {
+	text-decoration: none;
+	color: white;
+	text-transform: capitalize;
+	display: block;
+	padding: 20px;
+}
+.drop li {
+	display: block;
+}
+.drop {
+	width: 100%;
+	background-color: #694F8E;
+	position: absolute;
+	display: none;
+}
+li:hover .drop {
+	display: block;
+}
+.drop li:not(:last-child) {
+	border-bottom: 1px solid #CCC;
+}
+header{
+	background-image: url(../photo/background.png);
+	background-size: cover;
+	height: 600px;
+	width: 100%;
+	background-position: center;
+	background-repeat: no-repeat; 
+}
+
+
+.seller{
+	margin-top: 20px;
+	text-align: center;
+	color: #B692C2;
+	font-size: 60px;
+}
+.products{
+	margin: auto;
+}
+ .body{
+	display: inline-flex;
+	background-color: #E3A5C7;
+	height: 350px;
+	width: 1400px;
+	margin-left: 5%;
+	justify-content: space-around;
+	margin-top: 20px;
+	border-radius: 5px;
+
+ }
+ h4{
+	margin-top: 60px;
+	margin-left: 10%;
+	color: #674188;
+	font-size: 40px;
+ }
+ div img {
+	margin-top: 25px;
+	margin: 10px;
+	width: 200px;
+	height: 250px;	
+ }
+ .ttt{
+	margin-top: 10px;
+	margin-left: 25px;
+	
+ }
+ .ttt:hover{
+    transform: scale(1.1);
+ }
+ div p{
+	text-align: center;
+	color: #694F8E;
+ }
+ .skin{
+	display: inline-flex;
+	margin: 10px;
+	background-color: #E3A5C7;
+	height: 2500px;
+	margin-left: 5%;
+ }
+footer{
+	
+	font-size: 20px;
+	text-align: center;
+	color: #4a0e7f;
+	background-color: #8967B3;
+}
+article{
+	background-color: #8967B3 ;
+	margin-top: 20px;
+	color: #E6D9A2;
+	display: flex;
+	height: 300px;
+	justify-content: space-around;
+	text-transform: capitalize;
+}
+.para1 ,.para2{
+	text-align: justify;
+	color: #ffefef;
+	line-height: 30px;
+	font-size: 20px;
+	margin-top: 10px;
+	text-transform: lowercase;
+}
+article div a{
+	text-decoration: none;
+	display: block;
+	color: #ffefef;
+	margin-top: 15px;
+
+	
+}
+i{
+	margin-right: 10px;
+}
+h2{
+	margin-top: 15px;
+}
+.left div :first-child{
+	font-size: 20px;
+}
+.left div :nth-child(2) ,.left div :nth-child(3){
+	font-size: 15px;
+	color: #f6f5f2;
+	text-align: inherit;
+}

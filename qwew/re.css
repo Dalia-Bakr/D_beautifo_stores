@@ -1,0 +1,91 @@
+	 /* register page css  */
+* {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+nav {
+	background-color: #694F8E;
+	color: white;
+	display: flex;
+	justify-content: space-around;
+}
+
+ul {
+	list-style: none;
+}
+i {
+	margin-right: 10px;
+}
+li {
+	display: inline-block;
+	position: relative;
+}
+
+li a {
+	text-decoration: none;
+	color: white;
+	text-transform: capitalize;
+	display: block;
+	padding: 20px;
+}
+
+.drop li {
+	display: block;
+}
+
+.drop {
+	width: 100%;
+	background-color: #694F8E;
+	position: absolute;
+	display: none;
+}
+
+li:hover .drop {
+	display: block;
+}
+
+.drop li:not(:last-child) {
+	border-bottom: 1px solid #CCC;
+}
+body {
+	text-align: center;
+}
+section{
+	background-image: url(../photo/background/flat-lay-skincare-products-with-copy-space_23-2148317636.avif);
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 350px;
+}
+h4 {
+	padding-top: 20px;
+	margin-top: 75px;
+	color: #480c76;
+	font-size: 30px;
+}
+
+p {
+	margin-top: 10px;
+	color: #480c76;
+}
+
+form {
+	margin-top: 10px;
+}
+
+input {
+	margin-top: 10px;
+	width: 200px;
+}
+
+button {
+	margin-top: 10px;
+	width: 200px;
+	background-color: #E2BBE9;
+	border-color: #E2BBE9;
+	color: #5A639C;
+}
+
+a {
+	text-decoration: none;
+}

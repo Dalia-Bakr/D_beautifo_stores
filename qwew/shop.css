@@ -1,0 +1,215 @@
+ /* shop page css  */
+* {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+/* navbar */
+nav {
+	background-color: #694F8E;
+	color: white;
+	display: flex;
+	justify-content: space-around;
+}
+ul {
+	list-style: none;
+}
+li {
+	display: inline-block;
+	position: relative;
+}
+li a {
+	text-decoration: none;
+	color: white;
+	text-transform: capitalize;
+	display: block;
+	padding: 20px;
+}
+.drop li {
+	display: block;
+}
+.drop {
+	width: 100%;
+	background-color: #694F8E;
+	position: absolute;
+	display: none;
+}
+li:hover .drop {
+	display: block;
+}
+.drop li:not(:last-child) {
+	border-bottom: 1px solid #CCC;
+}
+i {
+	margin-right: 10px;
+}
+
+/* background */
+.header{
+	background-image: url(../photo/shop/parallax-bg.png);
+	height: 500px;
+}
+.header h1 {
+	color: hsl(272, 69%, 19%);
+	text-align: center;
+	padding-top: 200px;
+	padding-right: 400px;
+	text-transform: uppercase;
+	font-size: 50px;
+}
+.header p {
+	color: hsl(272, 69%, 19%);
+	text-align: center;
+	padding-right: 400px;
+	font-size: 30px;
+}
+/* products */
+.black{
+	text-align: center;
+}
+.button{
+	background-color: #ffefef;
+	text-align: center;
+	border-color: #ffefef;
+	width: 100px;
+	margin-top: 20px;
+	text-transform: uppercase;
+	margin-left: 25px;
+
+}
+.product{
+	position: relative;
+	margin-top: 20px;
+}
+.prod{
+	display:flex;
+	flex-wrap: wrap;
+	color: #1f0932;
+	gap: 20px;
+	justify-content: center;
+	position: relative;
+	width: 100%;
+	height: 100%;
+}
+.prod div{
+	height: 350px;
+	padding: 20px;
+	text-align: center;
+	position: relative;
+}
+.prod div  h2 {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	display: flex;
+	align-items: center;
+	text-transform: capitalize;
+	justify-content: center;
+	font-size: 25px;
+	font-weight: bold;
+	color: rgb(55, 2, 102);
+	background-color: rgba(233, 230, 230, 0.8);
+	opacity: 0;
+	transition: opacity 0.3s ease;
+	border-radius: 5px;
+}
+.product {
+	position: relative;
+	text-align: center;
+	overflow: hidden;
+}
+.product div img{
+	width: 225px;
+	height: 225px;
+	border-radius: 8px;
+	transition: transform 0.3s ease;
+}
+.prod :hover img{
+	transform: scale(1.1)
+}
+.prod :hover h2 {
+	opacity: 1;
+}
+.hlasr{
+	color: hsl(272, 69%, 19%);
+	text-align: center;
+	padding-top: 200px;
+	text-transform: uppercase;
+}
+/* last image */
+ .laster{
+	display: flex;
+	margin-left: 20px;
+	
+ }
+ .laster img{
+	margin-left: 30px;
+	margin-top: 30px;
+ }
+
+
+
+
+
+
+
+
+
+
+/* article */
+article {
+	background-color: #8967B3;
+	color: #E6D9A2;
+	display: flex;
+	height: 300px;
+	justify-content: space-around;
+	text-transform: capitalize;
+	margin-top: 20px;
+}
+
+.para1,
+.para2 {
+	text-align: justify;
+	color: #ffefef;
+	line-height: 30px;
+	font-size: 20px;
+	margin-top: 10px;
+	text-transform: lowercase;
+}
+
+article div a {
+	text-decoration: none;
+	display: block;
+	color: #ffefef;
+	margin-top: 15px;
+
+
+}
+
+i {
+	margin-right: 10px;
+}
+
+h2 {
+	margin-top: 15px;
+}
+
+.left div :first-child {
+	font-size: 20px;
+}
+
+.left div :nth-child(2),
+.left div :nth-child(3) {
+	font-size: 15px;
+	color: #f6f5f2;
+	text-align: inherit;
+}
+footer {
+	
+	font-size: 20px;
+	text-align: center;
+	background-color: #8967B3;
+	color: #4a0e7f;
+}
